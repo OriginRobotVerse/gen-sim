@@ -1,5 +1,5 @@
 {
-  "$schema": "https://originrobot.dev/schemas/origin-app.json",
+  "$schema": "https://raw.githubusercontent.com/OriginRobotVerse/launcher/refs/heads/main/schemas/origin-app.schema.json",
   "name": "MuJoCo Policy Controller",
   "id": "mujoco-policy-controller",
   "version": "0.2.0",
