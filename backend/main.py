@@ -27,8 +27,7 @@ from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
 # Add the Python client to the path
-sys.path.insert(0, str(__import__("pathlib").Path(__file__).resolve().parent.parent.parent.parent / "clients" / "python"))
-from origin_client.client import OriginClient, OriginError
+from origin_client import OriginClient, OriginError
 
 from policies import POLICY_MAP, ALL_POLICIES, Policy, get_policies_for_device, MODEL_POLICIES
 from neural_policy import NeuralPolicy, NEURAL_CONFIGS
